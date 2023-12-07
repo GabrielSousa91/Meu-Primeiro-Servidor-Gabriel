@@ -1,4 +1,4 @@
-const apresentacao = (req, res) => {
+const apresentar = (req, res) => {
   const dataAtual = new Date();
   res.status(200).json({
     mensagem: "Olá, este é o meu primeiro servidor em express",
@@ -7,5 +7,5 @@ const apresentacao = (req, res) => {
 };
 
 module.exports = {
-  apresentacao,
+  apresentar,
 };
